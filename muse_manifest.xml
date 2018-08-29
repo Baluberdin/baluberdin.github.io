@@ -1,17 +1,42 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="baluberdin.ru" resolutions="1x" timestamp="1535301421539">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="baluberdin.ru" resolutions="1x" timestamp="1535568331392">
+  <folder name="images">
+    <file name="3.jpg" crc="4204594259" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="2.jpg" crc="171594348" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1.jpg" crc="4182142872" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4.jpg" crc="323800273" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="ajxygtfvbgw.jpg" crc="401548720" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
   <folder name="css">
-    <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3840410050" ref="index"/>
-    <file name="baluberdin_rueng.css" crc="4225996520" ref="baluberdin.rueng"/>
+    <file name="site_global.css" crc="514934261"/>
+    <file name="index.css" crc="166254215" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:baluberdin.rueng"/>
-    <file name="museutils.js" crc="4232573551" ref="index:baluberdin.rueng"/>
-    <file name="whatinput.js" crc="86476730" ref="index:baluberdin.rueng"/>
-    <file name="museconfig.js" crc="3849126041" ref="index:baluberdin.rueng"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="index:baluberdin.rueng"/>
-    <file name="require.js" crc="4234670167" ref="index:baluberdin.rueng"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4232573551" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="3849126041" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index"/>
+    <file name="require.js" crc="4234670167" ref="index"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index"/>
+    <file name="form_check.php" crc="3841221102" ref="index"/>
+    <file name="form_throttle.php" crc="4048049783" ref="index"/>
+    <file name="form_process.php" crc="3899230280" ref="index"/>
+    <file name="form-u2085.php" crc="125423167" ref="index"/>
   </folder>
-  <file name="index.html" crc="3815897842" seo="true" mt="1535301414014" redirect="true"/>
-  <file name="baluberdin.rueng.html" crc="4032777170" seo="true" mt="1535301414015" redirect="true"/>
+  <file name="index.html" crc="3979988381" seo="true" mt="1535568299173" redirect="true"/>
 </manifest>
