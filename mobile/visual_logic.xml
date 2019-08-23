@@ -1,0 +1,255 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab">
+    <block type="initSettings" id="@l;tq89{L2hn_3;($n/P" x="-210" y="-290">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="Main" type="MainTab">
+    <block type="whenClicked" id=";hdR(S.H*KEAwq;O[I);" x="-230" y="-310">
+      <mutation enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="GBl7UBtsy0%-cWORs)gd">
+          <field name="FIELDNAME">Sphere_chrome</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="RJ6SZ-7?{fdVLtM*Ua,*">
+          <value name="VALUE2">
+            <block type="materialList" id="Jj@C!2WnrE*F;#f}Y=Fj">
+              <field name="FIELDNAME">chrome</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="VraqDI3{A%ow){gg1?eL">
+              <field name="FIELDNAME">legs</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block type="whenClicked" id="(S~|p}{rcYP$2gH[G|W4" x="-230" y="-210">
+      <mutation enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="TX$5n*pY-dn[eNO=sXYR">
+          <field name="FIELDNAME">Sphere_paint_black</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="9mC`!dxK+kVk;E|4h(vc">
+          <value name="VALUE2">
+            <block type="materialList" id="%gsY+H7RPVoMfAb`Eu]S">
+              <field name="FIELDNAME">paint_black</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="cUvR(5}}RifE*eA4wh0C">
+              <field name="FIELDNAME">legs</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block type="whenClicked" id="wMhwRRrQkb.E$u7CX/HR" x="-230" y="-110">
+      <mutation enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="O[|*kgkVpHTZenS*J?O(">
+          <field name="FIELDNAME">Sphere_paint_white</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="!Xs[O5oC18n]`:R_BLPo">
+          <value name="VALUE2">
+            <block type="materialList" id="M*HpS!C;a^ig%7Sn62Jg">
+              <field name="FIELDNAME">paint_white</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="`j)2~m{]WUAijRig!o*A">
+              <field name="FIELDNAME">legs</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block type="whenClicked" id="IE;eLHFC!xl`b?vdjf%w" x="-230" y="-10">
+      <mutation enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="~@ifNTZg9G=.Mj(?au@J">
+          <field name="FIELDNAME">plank_wood1</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="replaceTexture" id="gqEW_A}yYg04Bp3Vmx,w">
+          <field name="OLD_TEX_NAME">Map #6</field>
+          <value name="MATERIAL">
+            <block type="materialList" id="n%5N(fGvYH`{Qhk).:Lz">
+              <field name="FIELDNAME">wood_original</field>
+            </block>
+          </value>
+          <value name="NEW_TEX_URL">
+            <shadow type="text" id="2gygzY_{S9MS+S}-0C@H">
+              <field name="TEXT">wood_basecolor_1.jpg</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block type="whenClicked" id="=Wc1sD*a69=]Y?#*9W~;" x="-230" y="90">
+      <mutation enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id=".%6Y6`#C.%^6px!.}/qv">
+          <field name="FIELDNAME">plank_wood2</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="replaceTexture" id="+Rg,!``R]f-kva9t~@Fy">
+          <field name="OLD_TEX_NAME">Map #6</field>
+          <value name="MATERIAL">
+            <block type="materialList" id="bnc^vl`vgU9Q6$w`VS#g">
+              <field name="FIELDNAME">wood_original</field>
+            </block>
+          </value>
+          <value name="NEW_TEX_URL">
+            <shadow type="text" id="Hg`Mb]F?U#LvIKMp,%tG">
+              <field name="TEXT">wood_basecolor_2.jpg</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block type="whenClicked" id="~xNi$W.2YSGM]8cx4*ck" x="-230" y="190">
+      <mutation enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="$yC%iz;@-c@*kvJ[Sl}M">
+          <field name="FIELDNAME">plank_wood3</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="replaceTexture" id=".Wxb$r5PHCvb89yeS^Xi">
+          <field name="OLD_TEX_NAME">Map #6</field>
+          <value name="MATERIAL">
+            <block type="materialList" id="t9mU*msc22oh$9tviYhy">
+              <field name="FIELDNAME">wood_original</field>
+            </block>
+          </value>
+          <value name="NEW_TEX_URL">
+            <shadow type="text" id="Cq+Qq{}~xo[tRTKN_]o{">
+              <field name="TEXT">wood_basecolor_3.jpg</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="Animation" type="SecondaryTab">
+    <variables>
+      <variable type="" id="KaZ2X.Zo+dxo_])O!yVg">drawer_status</variable>
+    </variables>
+    <block type="stopAnimation" id="AbEzd;1%+#(8t;N?AG4Q" x="170" y="170">
+      <value name="VALUE">
+        <block type="animationList" id="H5nmC+]dkf8X)7{k!x{]">
+          <field name="FIELDNAME">drawer</field>
+        </block>
+      </value>
+    </block>
+    <block type="variables_set" id="FH#OZ_bx0%PiKNZK|s^_" x="170" y="230">
+      <field name="VAR" id="KaZ2X.Zo+dxo_])O!yVg" variabletype="">drawer_status</field>
+      <value name="VALUE">
+        <block type="text" id="8KHXim~Q%byt(^-1,^:6">
+          <field name="TEXT">closed</field>
+        </block>
+      </value>
+    </block>
+    <block type="whenClicked" id="Yy2=vpPu@%Wu$`YYVIp7" x="170" y="290">
+      <mutation enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="g~|XY.GA/,jLfIDZrrb+">
+          <field name="FIELDNAME">drawer</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="uIv/8E,j{;wPF59SwVDG">
+          <mutation elseif="1"></mutation>
+          <value name="IF0">
+            <block type="logic_compare" id="gAN1M[}W(oIifp,ITa.g">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="L$i`!08_Mo/Y1Apa:$GS">
+                  <field name="VAR" id="KaZ2X.Zo+dxo_])O!yVg" variabletype="">drawer_status</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="%uq#)DX7xQ)eSh@O6c3u">
+                  <field name="TEXT">closed</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="}$_;D]bLTl3B_9@LQdtF">
+              <mutation advplaybackoptions="false" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="+pq~paqU/A8F%;;Ms0[7">
+                  <field name="FIELDNAME">drawer</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="_IO]13!{9P/6O1Cf8t9z">
+                  <field name="VAR" id="KaZ2X.Zo+dxo_])O!yVg" variabletype="">drawer_status</field>
+                  <value name="VALUE">
+                    <block type="text" id="W`F^kGv|jA6~hu:{;;`j">
+                      <field name="TEXT">open</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="oHnoemSu*.!@l09M*uLE">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="g4+GoEKPaG(U4aSd1}@2">
+                  <field name="VAR" id="KaZ2X.Zo+dxo_])O!yVg" variabletype="">drawer_status</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="(a)?6uGqZolp^+X3tttz">
+                  <field name="TEXT">open</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="Y!wW(lAb8=Z?U:ZqQ*A8">
+              <mutation advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="GqX-CE#Z#uOi43syB#D%">
+                  <field name="FIELDNAME">drawer</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="203VbBI4og:2;SsAiL]l">
+                  <field name="VAR" id="KaZ2X.Zo+dxo_])O!yVg" variabletype="">drawer_status</field>
+                  <value name="VALUE">
+                    <block type="text" id="n_eoAh.I0EA#QsS}ODfK">
+                      <field name="TEXT">closed</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </tab>
+</xml>
