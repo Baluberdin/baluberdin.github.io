@@ -3,8 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-	<meta name="MobileOptimized" content="width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Configurator</title>
     <style>
       html {
@@ -50,7 +49,7 @@
       }
 
       #loader {
-        position: fixed;
+        position: absolute;
         left: 0;
         top: 0;
         width: 100vw;
@@ -58,7 +57,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: top;
+        justify-content: center;
       }
 
       .spinner,
@@ -92,7 +91,7 @@
   </head>
 
   <body>
-    <div id="gameContainer" style="width: 100%; height: 100%; margin: auto"></div>
+    <div id="gameContainer"></div>
     <div id="loader">
       <img class="logo" src="logo.png">
       <div class="spinner"></div>
